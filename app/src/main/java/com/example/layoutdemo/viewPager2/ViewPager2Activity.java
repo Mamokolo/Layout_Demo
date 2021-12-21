@@ -44,7 +44,7 @@ public class ViewPager2Activity extends FragmentActivity {
         tabLayout.addTab(tabLayout.newTab().setIcon(R.drawable.ic_baseline_settings_24));
 
         viewPager2 = findViewById(R.id.vp2);
-        fragmentStateAdapter = new SpecialAdapter(this, fragmentList);
+        fragmentStateAdapter = new SpecialFragmentStateAdapter(this, fragmentList);
         viewPager2.setAdapter(fragmentStateAdapter);
         viewPager2.setOffscreenPageLimit(2);
         viewPager2.setPageTransformer(new PageTransformer());
