@@ -18,6 +18,7 @@
         </activity>
         <activity android:name=".viewPager2.ViewPager2Activity"/>
         <activity android:name=".bottomNavigation.BottomNavigationActivity"/>
+        <activity android:name=".recyclerView.RecyclerViewActivity"/>
     </application>
 
 </manifest>
